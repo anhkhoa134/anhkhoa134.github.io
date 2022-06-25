@@ -13,8 +13,7 @@
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://anhkhoa134.github.io/post/project-1/</guid>
-      <description>Project 1: Using Machine Learning predict Vietnam stock market
-Investpy, BeautifulSoup để Crawling Data Pandas, Numpy để Preprocessing Data, dùng Datetime + RSI indicator để lọc Stocks Matplotlib để Visualization Data Machine Learning: Time Series prediction: ARIMA, Prophet (Facebook Library) Open, Close price: Unsupervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &amp;hellip;) This Project’s GitHub Repository</description>
+      <description>Data Crawling: Investpy, BeautifulSoup Data Processing: Pandas, Numpy Stock Filter: RSI indicator Data Visualization: Matplotlib Machine Learning: Time Series Analysis: ARIMA, Prophet (Facebook Library) Price Analysis: Supervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &amp;hellip;) Algorithm optimization: GridSearchCV Step 1: Get Symbols of companies under VN30 Popular Indicators: RSI, EMA12-36, BB, SMA20-50, MACD, Stochastic,&amp;hellip; in seconds, minutes, days, weeks, months, which are compatible with Short, Medium, Long time strategy This project delves into the use of Prediction Library, so it is assumed that investors use Long Time and Safety strategies: Great companies, good business performance and future growth Choose stocks with low volatility Buy price is low now, can HOLD for long time We choose Indicator RSI for a good BUY point Step 2: Get the stock price and calculate the RSI Step 3: Filter to find BUY points of the last 3 days We choose a buy point when the RSI line crosses up 30 in the last 3 days (24.</description>
     </item>
     
     <item>
