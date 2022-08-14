@@ -8,7 +8,31 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://anhkhoa134.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project 1: Using Machine Learning predicts Vietnam&#39;s stock market</title>
+      <title>Project 4: Salary Analysis Of India 2022 By Tableau</title>
+      <link>https://anhkhoa134.github.io/post/project-4/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-4/</guid>
+      <description>Data Visualization: Tableau INDIA SALARY OVERVIEW SALARY BETWEEN COMPANIES INDIA COMPANIES This Project’s GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Business analysis of E-commerce company by Power BI</title>
+      <link>https://anhkhoa134.github.io/post/project-3/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-3/</guid>
+      <description>Data Visualization: Power BI Overview 2016 lack of data
+The daily revenue is relatively even
+There is a difference in revenue each month, in the last months of the year, revenue decreases
+Most orders have been delivered to customers (96.34%)
+About 1000 Canceled and Invoiced applications: need for customer service staff to track the cause and fix it
+The main form of payment is Credit Card
+Using the voucher is only 2.</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Using Machine Learning to predict Vietnam&#39;s stock market</title>
       <link>https://anhkhoa134.github.io/post/project-1/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       
@@ -17,7 +41,7 @@
     </item>
     
     <item>
-      <title>Project 2: Using Selenium Automation chooses best selling products on Tiki</title>
+      <title>Project 2: Using Selenium to choose best selling products on Tiki</title>
       <link>https://anhkhoa134.github.io/post/project-2/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       
