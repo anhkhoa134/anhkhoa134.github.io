@@ -8,41 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://anhkhoa134.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project 6: Create stock price alerts using Python and API Google Drive, Sheets, Telegram</title>
+      <title>Project 6: Business analysis of E-commerce company by Power BI</title>
       <link>https://anhkhoa134.github.io/post/project-6/</link>
-      <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://anhkhoa134.github.io/post/project-6/</guid>
-      <description>Data Crawling: Yahoo, Investpy Data Processing: Pandas, Numpy API Google Drive, Sheets, Telegram Step 1: Choose stocks Similar to Project 5
-Step 2: Create a chart and Upload to Google Drive Because the Google Sheets API does not yet contain the ability to automatically generate Charts. So we have to upload images to GDrive and then insert into GSheets Just upload the first time, the next time will replace images Step 3: Write data into Google Sheets Step 4: Send a message to Telegram Group when the conditions are met This Project’s GitHub Repository</description>
-    </item>
-    
-    <item>
-      <title>Project 5: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation</title>
-      <link>https://anhkhoa134.github.io/post/project-5/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://anhkhoa134.github.io/post/project-5/</guid>
-      <description>Data Crawling: Yahoo Data Processing: Pandas, Numpy Excel Automation: Xlwt I. Sheet 1 function: Year 2021 Statistics of indicators for 6 months, showing us the right time to BUY and SELL
-Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50
-To open the filter function, we select the whole table, then select Sort &amp;amp; Filter / Filter To filter BUY points: select the column to filter / Select BUY / OK • BUY signal: is the point where the price has decreased for a period of time and then recovered (reverse SELL) • Wait to BUY point: is a point that has just dropped, is worth monitoring, not recommended to buy</description>
-    </item>
-    
-    <item>
-      <title>Project 4: Salary Analysis Of India 2022 By Tableau</title>
-      <link>https://anhkhoa134.github.io/post/project-4/</link>
-      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://anhkhoa134.github.io/post/project-4/</guid>
-      <description>Data Visualization: Tableau INDIA SALARY OVERVIEW SALARY BETWEEN COMPANIES INDIA COMPANIES This Project’s GitHub Repository</description>
-    </item>
-    
-    <item>
-      <title>Project 3: Business analysis of E-commerce company by Power BI</title>
-      <link>https://anhkhoa134.github.io/post/project-3/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://anhkhoa134.github.io/post/project-3/</guid>
       <description>Data Visualization: Power BI Overview 2016 lack of data
 The daily revenue is relatively even
 There is a difference in revenue each month, in the last months of the year, revenue decreases
@@ -53,21 +23,51 @@ Using the voucher is only 2.</description>
     </item>
     
     <item>
+      <title>Project 5: Salary Analysis Of India 2022 By Tableau</title>
+      <link>https://anhkhoa134.github.io/post/project-5/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-5/</guid>
+      <description>Data Visualization: Tableau INDIA SALARY OVERVIEW SALARY BETWEEN COMPANIES INDIA COMPANIES This Project’s GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>Project 4: Using selenium to scrape website data: Tiki, Mogi, Backmarket, Masothue</title>
+      <link>https://anhkhoa134.github.io/post/project-4/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-4/</guid>
+      <description>Data Crawling: Selenium Data Processing: Pandas, Regex Video This Project’s GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Create stock price alerts using Python and API Google Drive, Sheets, Telegram</title>
+      <link>https://anhkhoa134.github.io/post/project-3/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-3/</guid>
+      <description>Data Crawling: Yahoo, Investpy Data Processing: Pandas, Numpy API Google Drive, Sheets, Telegram Step 1: Choose stocks Similar to Project 5
+Step 2: Create a chart and Upload to Google Drive Because the Google Sheets API does not yet contain the ability to automatically generate Charts. So we have to upload images to GDrive and then insert into GSheets Just upload the first time, the next time will replace images Step 3: Write data into Google Sheets Step 4: Send a message to Telegram Group when the conditions are met This Project’s GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation</title>
+      <link>https://anhkhoa134.github.io/post/project-2/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-2/</guid>
+      <description>Data Crawling: Yahoo Data Processing: Pandas, Numpy Excel Automation: Xlwt I. Sheet 1 function: Year 2021 Statistics of indicators for 6 months, showing us the right time to BUY and SELL
+Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50
+To open the filter function, we select the whole table, then select Sort &amp;amp; Filter / Filter To filter BUY points: select the column to filter / Select BUY / OK • BUY signal: is the point where the price has decreased for a period of time and then recovered (reverse SELL) • Wait to BUY point: is a point that has just dropped, is worth monitoring, not recommended to buy</description>
+    </item>
+    
+    <item>
       <title>Project 1: Using Machine Learning to predict Vietnam&#39;s stock market</title>
       <link>https://anhkhoa134.github.io/post/project-1/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://anhkhoa134.github.io/post/project-1/</guid>
       <description>Data Crawling: Investpy, Pandas Data Processing: Pandas, Numpy, RSI indicator Data Visualization: Matplotlib Machine Learning: Time Series Analysis: ARIMA, Prophet (Facebook Library) Price Analysis: Supervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &amp;hellip;) Algorithm optimization: GridSearchCV Step 1: Get Symbols of companies under VN30 Popular Indicators: RSI, EMA12-36, BB, SMA20-50, MACD, Stochastic,&amp;hellip; in seconds, minutes, days, weeks, months, which are compatible with Short, Medium, Long time strategy This project delves into the use of Prediction Library, so it is assumed that investors use Long Time and Safety strategies: Great companies, good business performance and future growth Choose stocks with low volatility Buy price is low now, can HOLD for long time We choose Indicator RSI for a good BUY point Step 2: Get the stock price and calculate the RSI Step 3: Filter to find BUY points of the last 3 days We choose a buy point when the RSI line crosses up 30 in the last 3 days (24.</description>
-    </item>
-    
-    <item>
-      <title>Project 2: Using Selenium to choose best selling products on Tiki</title>
-      <link>https://anhkhoa134.github.io/post/project-2/</link>
-      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://anhkhoa134.github.io/post/project-2/</guid>
-      <description>Data Crawling: Selenium Data Processing: Pandas, Regex Video This Project’s GitHub Repository</description>
     </item>
     
   </channel>
