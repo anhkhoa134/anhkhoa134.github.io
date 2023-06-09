@@ -6,7 +6,17 @@
     <description>Recent content in Data Analyst Portfolio on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anhkhoa134.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anhkhoa134.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 7: Retail Dashboard</title>
+      <link>https://anhkhoa134.github.io/post/project-7/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-7/</guid>
+      <description>SƠ LƯỢC
+Tool trực quan hoá và chia sẻ: Power BI Database: AdventureWorks Về công ty: Kinh doanh xe đạp, quần áo thể thao, phụ kiện, &amp;hellip; Quy mô: Phát triển ở nhiều khu vực, trên 10 cửa hàng và tiếp tục tăng trưởng nhanh Phạm vị dữ liệu: 2011-2014 KẾT QUẢ BÁN HÀNG Dễ dàng nhận thấy ProductLine-R và Style-U có doanh số cao nhất, trong đó Style-U có doanh số cao gần 4 lần Style-W Quan sát theo chiều thời gian Ngày, đơn hàng thường được đặt vào các ngày đầu và cuối tháng Quan sát theo chiều thời gian Tháng và Quý, đơn hàng có xu hướng giảm dần PHÂN TÍCH DOANH THU Doanh thu tăng 68% so với năm trước, nhìn chung mỗi tháng đều tăng rõ rệt, xong với KPI đặt ra vẫn chưa đạt Doanh thu mỗi Khu vực đều tăng đáng kể, nhiều Khu vực còn tăng gấp đôi so với năm trước (Khu vực 7, 8, 9, 10) PHÂN TÍCH KHÁCH HÀNG Khách hàng mua thường xuyên chiếm 73.</description>
+    </item>
+    
     <item>
       <title>Project 6: Business analysis of E-commerce company by Power BI</title>
       <link>https://anhkhoa134.github.io/post/project-6/</link>
