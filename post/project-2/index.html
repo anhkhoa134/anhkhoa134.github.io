@@ -4,11 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Project 2: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation | HOME</title>
+    <title>Project 2: Using Machine Learning to predict Vietnam&#39;s stock market | HOME</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Data Crawling: Yahoo Data Processing: Pandas, Numpy Excel Automation: Xlwt I. Sheet 1 function: Year 2021 Statistics of indicators for 6 months, showing us the right time to BUY and SELL
-Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50
-To open the filter function, we select the whole table, then select Sort &amp; Filter / Filter To filter BUY points: select the column to filter / Select BUY / OK • BUY signal: is the point where the price has decreased for a period of time and then recovered (reverse SELL) • Wait to BUY point: is a point that has just dropped, is worth monitoring, not recommended to buy">
+    <meta name="description" content="Data Crawling: Investpy, Pandas Data Processing: Pandas, Numpy, RSI indicator Data Visualization: Matplotlib Machine Learning: Time Series Analysis: ARIMA, Prophet (Facebook Library) Price Analysis: Supervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &hellip;) Algorithm optimization: GridSearchCV Step 1: Get Symbols of companies under VN30 Popular Indicators: RSI, EMA12-36, BB, SMA20-50, MACD, Stochastic,&hellip; in seconds, minutes, days, weeks, months, which are compatible with Short, Medium, Long time strategy This project delves into the use of Prediction Library, so it is assumed that investors use Long Time and Safety strategies: Great companies, good business performance and future growth Choose stocks with low volatility Buy price is low now, can HOLD for long time We choose Indicator RSI for a good BUY point Step 2: Get the stock price and calculate the RSI Step 3: Filter to find BUY points of the last 3 days We choose a buy point when the RSI line crosses up 30 in the last 3 days (24.">
     <meta name="generator" content="Hugo 0.101.0" />
     
     
@@ -31,26 +29,20 @@ To open the filter function, we select the whole table, then select Sort &amp; F
 
     
     
-    <meta property="og:title" content="Project 2: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation" />
-<meta property="og:description" content="Data Crawling: Yahoo Data Processing: Pandas, Numpy Excel Automation: Xlwt I. Sheet 1 function: Year 2021 Statistics of indicators for 6 months, showing us the right time to BUY and SELL
-Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50
-To open the filter function, we select the whole table, then select Sort &amp; Filter / Filter To filter BUY points: select the column to filter / Select BUY / OK • BUY signal: is the point where the price has decreased for a period of time and then recovered (reverse SELL) • Wait to BUY point: is a point that has just dropped, is worth monitoring, not recommended to buy" />
+    <meta property="og:title" content="Project 2: Using Machine Learning to predict Vietnam&#39;s stock market" />
+<meta property="og:description" content="Data Crawling: Investpy, Pandas Data Processing: Pandas, Numpy, RSI indicator Data Visualization: Matplotlib Machine Learning: Time Series Analysis: ARIMA, Prophet (Facebook Library) Price Analysis: Supervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &hellip;) Algorithm optimization: GridSearchCV Step 1: Get Symbols of companies under VN30 Popular Indicators: RSI, EMA12-36, BB, SMA20-50, MACD, Stochastic,&hellip; in seconds, minutes, days, weeks, months, which are compatible with Short, Medium, Long time strategy This project delves into the use of Prediction Library, so it is assumed that investors use Long Time and Safety strategies: Great companies, good business performance and future growth Choose stocks with low volatility Buy price is low now, can HOLD for long time We choose Indicator RSI for a good BUY point Step 2: Get the stock price and calculate the RSI Step 3: Filter to find BUY points of the last 3 days We choose a buy point when the RSI line crosses up 30 in the last 3 days (24." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://anhkhoa134.github.io/post/project-2/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-10-20T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-10-20T00:00:00+00:00" /><meta property="og:site_name" content="HOME" />
+<meta property="article:published_time" content="2022-10-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-25T00:00:00+00:00" /><meta property="og:site_name" content="HOME" />
 
-<meta itemprop="name" content="Project 2: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation">
-<meta itemprop="description" content="Data Crawling: Yahoo Data Processing: Pandas, Numpy Excel Automation: Xlwt I. Sheet 1 function: Year 2021 Statistics of indicators for 6 months, showing us the right time to BUY and SELL
-Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50
-To open the filter function, we select the whole table, then select Sort &amp; Filter / Filter To filter BUY points: select the column to filter / Select BUY / OK • BUY signal: is the point where the price has decreased for a period of time and then recovered (reverse SELL) • Wait to BUY point: is a point that has just dropped, is worth monitoring, not recommended to buy"><meta itemprop="datePublished" content="2022-10-20T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-10-20T00:00:00+00:00" />
-<meta itemprop="wordCount" content="438">
+<meta itemprop="name" content="Project 2: Using Machine Learning to predict Vietnam&#39;s stock market">
+<meta itemprop="description" content="Data Crawling: Investpy, Pandas Data Processing: Pandas, Numpy, RSI indicator Data Visualization: Matplotlib Machine Learning: Time Series Analysis: ARIMA, Prophet (Facebook Library) Price Analysis: Supervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &hellip;) Algorithm optimization: GridSearchCV Step 1: Get Symbols of companies under VN30 Popular Indicators: RSI, EMA12-36, BB, SMA20-50, MACD, Stochastic,&hellip; in seconds, minutes, days, weeks, months, which are compatible with Short, Medium, Long time strategy This project delves into the use of Prediction Library, so it is assumed that investors use Long Time and Safety strategies: Great companies, good business performance and future growth Choose stocks with low volatility Buy price is low now, can HOLD for long time We choose Indicator RSI for a good BUY point Step 2: Get the stock price and calculate the RSI Step 3: Filter to find BUY points of the last 3 days We choose a buy point when the RSI line crosses up 30 in the last 3 days (24."><meta itemprop="datePublished" content="2022-10-25T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-10-25T00:00:00+00:00" />
+<meta itemprop="wordCount" content="390">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Project 2: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation"/>
-<meta name="twitter:description" content="Data Crawling: Yahoo Data Processing: Pandas, Numpy Excel Automation: Xlwt I. Sheet 1 function: Year 2021 Statistics of indicators for 6 months, showing us the right time to BUY and SELL
-Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50
-To open the filter function, we select the whole table, then select Sort &amp; Filter / Filter To filter BUY points: select the column to filter / Select BUY / OK • BUY signal: is the point where the price has decreased for a period of time and then recovered (reverse SELL) • Wait to BUY point: is a point that has just dropped, is worth monitoring, not recommended to buy"/>
+<meta name="twitter:title" content="Project 2: Using Machine Learning to predict Vietnam&#39;s stock market"/>
+<meta name="twitter:description" content="Data Crawling: Investpy, Pandas Data Processing: Pandas, Numpy, RSI indicator Data Visualization: Matplotlib Machine Learning: Time Series Analysis: ARIMA, Prophet (Facebook Library) Price Analysis: Supervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &hellip;) Algorithm optimization: GridSearchCV Step 1: Get Symbols of companies under VN30 Popular Indicators: RSI, EMA12-36, BB, SMA20-50, MACD, Stochastic,&hellip; in seconds, minutes, days, weeks, months, which are compatible with Short, Medium, Long time strategy This project delves into the use of Prediction Library, so it is assumed that investors use Long Time and Safety strategies: Great companies, good business performance and future growth Choose stocks with low volatility Buy price is low now, can HOLD for long time We choose Indicator RSI for a good BUY point Step 2: Get the stock price and calculate the RSI Step 3: Filter to find BUY points of the last 3 days We choose a buy point when the RSI line crosses up 30 in the last 3 days (24."/>
 
 	
   </head>
@@ -62,7 +54,7 @@ To open the filter function, we select the whole table, then select Sort &amp; F
   
 
   
-  <header class="cover bg-top" style="background-image: url('https://user-images.githubusercontent.com/108108639/215115100-77de0562-f668-4721-8c69-642121b4b3d5.png');">
+  <header class="cover bg-top" style="background-image: url('https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_211443.png');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -142,7 +134,7 @@ To open the filter function, we select the whole table, then select Sort &amp; F
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 2: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 2: Using Machine Learning to predict Vietnam&#39;s stock market</h1>
           
         
       </div>
@@ -176,92 +168,92 @@ To open the filter function, we select the whole table, then select Sort &amp; F
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Project 2: Stock price statistics of companies in NASDAQ, S&amp;P500, Dow Jones using data scraping and Excel automation</h1>
+      <h1 class="f1 athelas mt3 mb1">Project 2: Using Machine Learning to predict Vietnam&#39;s stock market</h1>
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2022-10-20T00:00:00Z">October 20, 2022</time>
+      <time class="f6 mv4 dib tracked" datetime="2022-10-25T00:00:00Z">October 25, 2022</time>
       
 
       
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><ul>
-<li>Data Crawling: Yahoo</li>
-<li>Data Processing: Pandas, Numpy</li>
-<li>Excel Automation: Xlwt</li>
-</ul>
-<h3 id="i-sheet-1-function-year-2021">I. Sheet 1 function: Year 2021</h3>
+<li>Data Crawling: Investpy, Pandas</li>
+<li>Data Processing: Pandas, Numpy, RSI indicator</li>
+<li>Data Visualization: Matplotlib</li>
+<li>Machine Learning:
 <ul>
-<li>
-<p>Statistics of indicators for 6 months, showing us the right time to BUY and SELL</p>
-</li>
-<li>
-<p>Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50</p>
-</li>
-<li>
-<p>To open the filter function, we select the whole table, then select Sort &amp; Filter / Filter
-<img src="https://user-images.githubusercontent.com/108108639/215113280-697624ee-9d2f-4bea-90e5-6bcf19dd1609.png" alt="image"></p>
-</li>
-<li>
-<p>To filter BUY points: select the column to filter / Select BUY / OK
-• BUY signal: is the point where the price has decreased for a period of time and then recovered (reverse SELL)
-• Wait to BUY point: is a point that has just dropped, is worth monitoring, not recommended to buy</p>
-</li>
-<li>
-<p>Filter Date, Similar Symbol
-<img src="https://user-images.githubusercontent.com/108108639/215113749-4d2b4ec2-6626-45ef-a0f6-0fe1462ce4ba.png" alt="image"></p>
+<li>Time Series Analysis: ARIMA, Prophet (Facebook Library)</li>
+<li>Price Analysis: Supervised Learning (LinearRegression, DecisionTreeRegressor, RandomForestRegressor, AdaBoostRegressor, &hellip;)</li>
+<li>Algorithm optimization: GridSearchCV</li>
+</ul>
 </li>
 </ul>
-<h3 id="iisheet-2-3-function-buy-30-days-3-days">II.	Sheet 2, 3 function: BUY 30 days, 3 days</h3>
+<p><img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_183113.png" alt="Prophet Chart">
+<img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_211443.png" alt="Plot Chart"></p>
+<h2 id="step-1-get-symbols-of-companies-under-vn30">Step 1: Get Symbols of companies under VN30</h2>
+<p><img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_213418.png" alt=""></p>
 <ul>
-<li>Filter out symbols in 30 days with good BUY points</li>
-<li>Common indicators: CCI, RSI, MACD, EMA12-36, MFI, Bollinger Bands, Stochastic, Parabolic SAR, ADX, SMA20-50</li>
-<li>Combined indicators: ADX + EMA12-36, ADX + SMA20-50
-<img src="https://user-images.githubusercontent.com/108108639/215114372-a9a60a0d-31cb-4ff0-83d5-31c440515f5f.png" alt="image"></li>
+<li>Popular Indicators: <strong>RSI, EMA12-36, BB, SMA20-50, MACD, Stochastic,&hellip;</strong> in seconds, minutes, days, weeks, months, which are compatible with Short, Medium, Long time strategy</li>
+<li>This project delves into the use of <strong>Prediction Library</strong>, so it is assumed that investors use <strong>Long Time</strong> and <strong>Safety</strong> strategies:
+<ul>
+<li>Great companies, good business performance and future growth</li>
+<li>Choose stocks with low volatility</li>
+<li>Buy price is low now, can <strong>HOLD</strong> for long time</li>
+<li>We choose <strong>Indicator RSI</strong> for a good <strong>BUY</strong> point</li>
 </ul>
-<h3 id="iiisheet-4-function-market-statistics-of-the-day">III.	Sheet 4 function: Market Statistics of the day</h3>
-<ul>
-<li>In this Sheet, let us know the stocks in the month that have dividends and splits (there will be Symbols that have not announced the dividend date but still appear here, because the data is taken from the previous year, guys. rest assured that companies that have been operating for a long time pay dividends each year, so we will know the dividend date in advance even if they haven&rsquo;t announced it yet.)</li>
-<li>Is the market going up or down based on Change Day</li>
-<li>In the picture we see there are 315 blue positive stocks and 302 red negative stocks. The number of stocks with Change Day &gt;4% or &lt;-4%, the major economic indexes or ETFs are also relatively. So we see the market today is balanced.</li>
-<li>When the market is down trend or up trend, the data will be very different and oriented to one side
-<img src="https://user-images.githubusercontent.com/108108639/215114757-83cb0828-ba7e-481c-aa7e-02063dfbf9be.png" alt="image"></li>
+</li>
 </ul>
-<h3 id="ivsheet-5-function-stock-information">IV.	Sheet 5 function: Stock Information</h3>
+<h2 id="step-2-get-the-stock-price-and-calculate-the-rsi">Step 2: Get the stock price and calculate the RSI</h2>
+<p><img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_120940.png" alt=""></p>
+<h2 id="step-3-filter-to-find-buy-points-of-the-last-3-days">Step 3: Filter to find BUY points of the last 3 days</h2>
 <ul>
-<li>
-<p>Companies that pay dividends in the month will show Dark Blue</p>
-</li>
-<li>
-<p>Trailing PE &gt; forward PE: green, otherwise red</p>
-</li>
-<li>
-<p>Trailing EPS &lt; forward EPS: shown in green, otherwise red</p>
-</li>
-<li>
-<p>Filter by Sector to track ROA, ROE, Debt, Ebitda&hellip; in the industry
-<img src="https://user-images.githubusercontent.com/108108639/215115100-77de0562-f668-4721-8c69-642121b4b3d5.png" alt="image"></p>
-</li>
-<li>
-<p>Filter by Industry
-<img src="https://user-images.githubusercontent.com/108108639/215115304-02f1140c-3b1f-4cf9-bfef-7c8bead07f6a.png" alt="image"></p>
-</li>
-<li>
-<p>Or filter by Expert Recommendation. Remember, the suggestion is based on the data of the past 3 months, for reference only, not to determine the future price.
-<img src="https://user-images.githubusercontent.com/108108639/215115368-59288df7-866d-4c30-9d18-ac91b12f3603.png" alt="image"></p>
-</li>
-<li>
-<p>Current Price &lt; Low: it shows red, otherwise it&rsquo;s blue</p>
-</li>
-<li>
-<p>2 tables are the forecast of the experts Yahoo and Etoro statistics
-<img src="https://user-images.githubusercontent.com/108108639/215115456-f3ddefc0-543b-4664-9965-ac9f6eab04f4.png" alt="image"></p>
-</li>
-<li>
-<p>This table shows the % change in the last 5 years, now which month will show blue
-<img src="https://user-images.githubusercontent.com/108108639/215115518-36a2a32e-a824-4d6c-9369-0c16094541f3.png" alt="image"></p>
-</li>
+<li>We choose a buy point when the RSI line crosses up 30 in the last 3 days (24.06.2020)</li>
+<li>Find 3 symbols that meet the above requirements: TCB (Techcombank), MBB (MBBank), HPG (Hoa Phat Group)
+<img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_120818.png" alt=""></li>
+</ul>
+<h2 id="step-4-data-visualization">Step 4: Data Visualization</h2>
+<h5 id="price-chart">Price Chart</h5>
+<p><img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_000219.png" alt=""></p>
+<h5 id="volume-chart">Volume Chart</h5>
+<p><img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_000306.png" alt=""></p>
+<h5 id="rsi-chart">RSI Chart</h5>
+<p><img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_000339.png" alt=""></p>
+<h2 id="step-5-data-prediction">Step 5: Data Prediction</h2>
+<h3 id="step-51-using-arima-predicts-time-series">Step 5.1: Using ARIMA predicts Time Series</h3>
+<ul>
+<li>ARIMA algorithm in this case has AIC=27481.476 which is not suitable for future price prediction
+<img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_000409.png" alt=""></li>
+</ul>
+<h3 id="step-52-using-prophet-predicts-time-series">Step 5.2: Using Prophet predicts Time Series</h3>
+<ul>
+<li>Facebook&rsquo;s Prophet algorithm in the early stage is less volatility to predicts high accuracy, but in the later stage is more volatility to predicts low accuracy.
+<img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_183113.png" alt=""></li>
+</ul>
+<h3 id="step-53-using-supervised-learning-predicts-close-price-based-on-open-price">Step 5.3: Using Supervised Learning predicts Close price based on Open Price</h3>
+<ul>
+<li>We can see that KNeighborsRegressor algorithm gives high score and executes in a short time
+<img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_123233.png" alt=""></li>
+</ul>
+<h3 id="step-54-using-supervised-learning-predicts-close-price-based-on-shift-function">Step 5.4: Using Supervised Learning predicts Close price based on Shift function</h3>
+<ul>
+<li>In this case we have to create 1 Dataframe containing shift price of 15 days</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_183359.png" alt=""></p>
+<ul>
+<li>Once again we see NeighborsRegressor algorithm for high score and short execution time
+<img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_190653.png" alt=""></li>
+<li>We try to plot the prediction, it&rsquo;s easy to see that the prediction is quite correct
+<img src="https://raw.githubusercontent.com/anhkhoa134/portfolio/main/Project_1/images/2022-06-25_211443.png" alt=""></li>
+</ul>
+<h2 id="conclusion">Conclusion:</h2>
+<ul>
+<li>ARIMA algorithm is not suitable for predicting stock prices</li>
+<li>Appropriate Prophet algorithm predicts less volatile stocks</li>
+<li>NeighborsRegressor algorithm predicts stock prices with high accuracy and fast</li>
+<li>Hoa Phat&rsquo;s stock does not show any signs of growth in the near future, but it is currently priced very well compared to other stocks</li>
+<li>Suitable to buy in small quantity, medium price</li>
 </ul>
 <p><a href="https://github.com/anhkhoa134/portfolio/tree/main/Project_2">This Project’s GitHub Repository</a></p>
 <ul class="pa0">
