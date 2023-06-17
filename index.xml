@@ -6,7 +6,17 @@
     <description>Recent content in Data Analyst Portfolio on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anhkhoa134.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anhkhoa134.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 8: HR Dashboard</title>
+      <link>https://anhkhoa134.github.io/post/project-8/</link>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anhkhoa134.github.io/post/project-8/</guid>
+      <description>QUICKVIEW
+Visualization and sharing tool: Power BI Dataset over 1400 employees in many departments Include: name, age, department, income, start date, overtime,&amp;hellip; Home Most employees work for 1 year and 5 years Employees need to retire during this time is 8%, promotion is 5%, need to prepare appropriate regime Remote employees accounted for 15.58%, considering the cases of sharing the same route to support shuttle bus or fuel allowance Action The Research &amp;amp; Development Department needs to pay attention to this period, because the number of people who retire and get promoted is a lot, and the calculation of the regime is almost the same.</description>
+    </item>
+    
     <item>
       <title>Project 7: Retail Dashboard</title>
       <link>https://anhkhoa134.github.io/post/project-7/</link>
