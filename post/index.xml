@@ -38,21 +38,25 @@ Tool trực quan hoá và chia sẻ: Power BI Database: AdventureWorks Về côn
     </item>
     
     <item>
-      <title>Project 5: Salary Analysis Of India 2022 By Tableau</title>
+      <title>Project 5: Using selenium to scrape website data: Tiki, Mogi, Backmarket, Masothue</title>
       <link>https://anhkhoa134.github.io/post/project-5/</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://anhkhoa134.github.io/post/project-5/</guid>
-      <description>Data Visualization: Tableau INDIA SALARY OVERVIEW SALARY BETWEEN COMPANIES INDIA COMPANIES This Project’s GitHub Repository</description>
+      <description>Data Crawling: Selenium Data Processing: Pandas, Regex Video Tiki Mogi Backmarket Masothue This Project’s GitHub Repository</description>
     </item>
     
     <item>
-      <title>Project 4: Using selenium to scrape website data: Tiki, Mogi, Backmarket, Masothue</title>
+      <title>Project 4: Automatically Exploratory Data Analysis (EDA) any dataset</title>
       <link>https://anhkhoa134.github.io/post/project-4/</link>
       <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://anhkhoa134.github.io/post/project-4/</guid>
-      <description>Data Crawling: Selenium Data Processing: Pandas, Regex Video Tiki Mogi Backmarket Masothue This Project’s GitHub Repository</description>
+      <description>Data Processing: pyodbc, os, pandas, numpy Data Visualization: matplotlib, seaborn, plotly, pandas_profiling, sweetviz, pandasgui DATABASE Connect SQL Server use pyodbc package that export the Database Adventurework
+Overview: Table, View, Column, Type Pivot columns Data detail and define relationships FOLDER AND SUB-FOLDER Check all files in folder and subfolder DATAFRAME Use a Taxis dataset Check unique Check missing values
+Check duplicate: no duplicate
+Statistic Distribution
+Outlier Correlation Comparison Composition PandasProfiling SweetViz PandasGui This Project’s GitHub Repository</description>
     </item>
     
     <item>
